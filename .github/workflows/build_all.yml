@@ -5,6 +5,7 @@ on:
   push:
     tags:
       - "dev_v*"
+  workflow_dispatch:
 
 jobs:
   # 打包Android、iOS、Mac
